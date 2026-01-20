@@ -1,16 +1,77 @@
-# React + Vite
+📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive To-Do application built with React that allows users to add, view, and delete tasks. Tasks are saved in localStorage so that your data persists even after refreshing the page.
 
-Currently, two official plugins are available:
+⚡ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add new tasks
 
-## React Compiler
+Delete tasks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Persistent storage using localStorage
 
-## Expanding the ESLint configuration
+Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built with React (JavaScript)
+
+🛠️ Tech Stack
+
+React
+
+JavaScript (ES6)
+
+CSS
+
+localStorage
+
+🚀 Getting Started
+Prerequisites
+
+Node.js v18+ (or v22+ if using Vite)
+
+npm
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/akshaysatheesh11/TodoList.git
+cd TodoList
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open your browser at: http://localhost:3000
+
+📁 Project Structure
+react-todo-app/
+├─ src/
+│  ├─ components/
+│  │  ├─ TodoForm.jsx
+│  │  ├─ TodoItem.jsx
+│  │  └─ TodoList.jsx
+│  ├─ App.js
+│  ├─ index.js
+│  └─ index.css
+├─ package.json
+└─ README.md
+
+🎨 Screenshots
+
+(Optional: Add screenshots of your app here for visual appeal)
+
+💡 How it Works
+
+Adding a Task: Type in the input field and click Add.
+
+Deleting a Task: Click the ❌ button next to the task.
+
+Persistence: Tasks are stored in the browser’s localStorage so they remain after a refresh.
